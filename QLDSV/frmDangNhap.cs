@@ -73,7 +73,7 @@ namespace QLDSV
             Program.frmChinh.Nhom.Text = "Nhóm :"+Program.mGroup;
             Program.frmChinh.rbpDanhMuc.Visible = true;
             groupBox1.Enabled = false;
-            this.Close();
+            //this.Close();
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
